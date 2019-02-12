@@ -4,8 +4,9 @@
 #  |      |                 |      |     when we calcualte voltage across RL.
 #  V      |----|    --->    V      |
 #  |      |    |            |      |     Due to the Voltage Division Principal, we can find
-#  |     R2    RL           |     Reqv   the voltage across any resistor by Vn = Rn/(R1+...+Rn)
-#  |------|----|            |------|     where Rn represents any resistor in series.
+#  |     R2    RL           |     Reqv   the voltage across any resistor by Vn = Rn/(R1+...+Rn)*V
+#  |------|----|            |------|     where Vn is the voltage across Rn, which represents any 
+#                                        resistor in series.
 #
 #  If we find the voltage across our equivalent resistor Reqv, we automatically know the
 #  voltage across R2 and the load resistor RL. To find Reqv, we just take (R2*RL)/(R2+RL).
