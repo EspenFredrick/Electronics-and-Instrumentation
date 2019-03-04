@@ -9,7 +9,7 @@ def Idecibels(x,y):
     I = 10*m.log10(x/y)
     print ('A value of',x,'W/m^2 is',I,'dB relative to',y,'W/m^2')
 
-x = input('Type "dB" for decibel reference or "V" for voltage reference: ')
+x = input('Type "dB" for intensity reference or "V" for voltage reference: ')
 if 'dB' in x:
      ref = int(input('Enter reference level in W/m^2: '))
      act = int(input('Enter actual value in W/m^2: '))
